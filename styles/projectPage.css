@@ -1,0 +1,119 @@
+/* CSS Document */
+
+.seeAllLink
+{
+float:right; 
+position:relative;
+font-size:12px;
+cursor:pointer;
+text-decoration:none; 
+}
+
+.paid , .date, .chargeName, .actions, .amount, .endDate, .startDate, .timeSheets
+{
+	float:left;
+	text-align:left;
+	overflow:hidden;
+}
+
+.timeSheets 
+{
+	width:20%;
+}
+
+.startDate
+{
+	width:20%;
+	padding-left:1em;
+}
+
+.endDate
+{
+	width:20%;
+}
+
+.amount
+{
+	width:15%;
+}
+
+.actions 
+{
+	width:26%;
+	text-align:right;
+}
+
+.paid
+{
+	width:10%;
+}
+.date
+{
+	width: 15%;
+}
+.chargeName
+{
+	width:30%;
+	padding-left:1em;
+}
+
+.elementPanel
+{
+background-color:#B5FF6A;
+border:#999999 thin dotted;
+
+}
+
+.elementPanelGroup
+{
+	clear:both; 
+	margin-bottom:1em;
+	line-height:25px;
+}
+
+#mainBody 
+{
+	background-color:#CBFF97;
+	padding:1em;
+	position:relative; 
+	top:-1px;
+	left:-1px;
+	min-width:800px;
+	
+}
+
+.style5 {font-size: large; color: #70DF00; font-family: Verdana, Arial, Helvetica, sans-serif; cursor:pointer;}
+
+.style7 {
+	font-size: 24px;
+	font-weight: bold;
+	color: #58B000;
+}
+.style8 {font-size: 25px}
+
+#createCharge {
+	position:absolute;
+	top:70px;
+	width:100%;
+	visibility:hidden;
+	height:100%;
+	z-index:1;
+	text-align:center;
+}
+
+#createCycle
+{
+	position:absolute;
+	top:70px;
+	width:100%;
+	visibility:hidden;
+	height:100%;
+	z-index:1;
+	text-align:center;
+}
+
+.settingPopup
+{
+ border-bottom:medium #666666 inset;
+ font-size:18px; 
+}
